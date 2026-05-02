@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/YOUR_USERNAME/eks-infra.git
+    repoURL: https://github.com/omnaladkar/eks-infra.git
     targetRevision: main
     path: k8s
   destination:
