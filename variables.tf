@@ -30,7 +30,7 @@ variable "kubernetes_version" {
 
 variable "instance_types" {
   type    = list(string)
-  default = ["t3.medium"]
+  default = ["t3.small"]
 }
 
 variable "disk_size" {
@@ -40,15 +40,15 @@ variable "disk_size" {
 
 variable "desired_size" {
   type    = number
-  default = 2
+  default = 1
 }
 
 variable "max_size" {
   type    = number
-  default = 3
+  default = 2
 }
 
 variable "min_size" {
   type    = number
-  default = 1
+  default = 0
 }
